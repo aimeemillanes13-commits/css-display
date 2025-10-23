@@ -20,30 +20,47 @@ div img {
 
 .container1 {
     height: 200px;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .container2 {
     height: 200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     
 }
 
 .container3 {
     height: 200px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
     
 }
 
 .container4 {
     height: 200px;
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
 .container5 {
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 
 .container6 {
     height: 400px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
 }
